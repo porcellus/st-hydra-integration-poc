@@ -23,11 +23,11 @@ import { middleware, errorHandler } from "supertokens-node/framework/express";
 const app = express()
 
 SuperTokens.init({
-  debug: true,
+  // debug: true,
   supertokens: {
       // this is the location of the SuperTokens core.
-      // connectionURI: "https://try.supertokens.com",
-      connectionURI: "http://localhost:9000",
+      connectionURI: "https://try.supertokens.com",
+      // connectionURI: "http://localhost:9000",
   },
   appInfo: {
     apiDomain: "http://localhost:3000",

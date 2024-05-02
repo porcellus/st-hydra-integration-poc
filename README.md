@@ -24,7 +24,7 @@ docker compose \
 
 #### 3. Create and run an OAuth2 client application
 
-1. Create an example app using our CLI: ```npx create-supertokens-app --recipe=thirdparty`.
+1. Create an example app using our CLI: `npx create-supertokens-app --recipe=thirdparty`.
 2. Update `backend/config.ts` in the generated example to match:
 
 ```ts
